@@ -1,0 +1,289 @@
+@font-face {
+    font-family: Consolas;
+    src: url(Consolas.woff);
+}
+::-webkit-scrollbar {
+    display: none;
+}
+body::-webkit-scrollbar {
+    display: block;
+    width: 0.5vh;
+    overflow: auto;
+}
+body::-webkit-scrollbar-thumb {
+    background: #B0B3D6;
+}
+body::-webkit-scrollbar:hover {
+    width: 1vh;
+}
+div::-webkit-scrollbar {
+    display: block;
+    width: 0.5vh;
+    overflow: auto;
+}
+div::-webkit-scrollbar-thumb {
+    background: #404040;
+}
+div {
+    overflow: hidden;
+}
+div:hover {
+    overflow: auto;
+}
+
+html {
+    background-color: #222222;
+    margin: 0;
+}
+body {
+    background-color: #222222;
+    margin: 0;
+    height: 100%;
+    font-family: Consolas, Arial, "Times New Roman", x-locale-body, sans-serif;
+    overflow-x: hidden;
+    color: #ffffff;
+}
+a {
+    color: #FEDE60;
+}
+.overlay {
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #222222;
+    font-family: Montserrat, Arial, "Times New Roman", x-locale-body, sans-serif;
+}
+.overlay_content {
+    position: absolute;
+    font-size: 42px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+}
+.button {
+    background-color: #222222;
+    color:#ffffff;
+    font-size: 40px;
+    font-family: Consolas, sans-serif;
+    border: 2px solid #ffffff;
+    display: inline-block;
+    cursor: pointer;
+    margin: 2px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.button:hover {
+    background-color: #ffffff;
+    color: #222222;
+    font-size: 42px;
+    box-shadow: 0 12px 16px 0 rgba(255,255,255,0.05), 0 17px 50px 0 rgba(255,255,255,0.1);
+}
+.f_m {
+    position: relative;
+    font-size: 18px;
+    margin-left: 20vw;
+    margin-right: 20vw;
+    margin-top: 15vw;
+}
+.console {
+    height: 40vh;
+    position: absolute;
+    background-color: #000000;
+    width: 50vw;
+    font-size: 16px;
+    left: 2vw;
+    top: 100vh;
+    border-bottom: 0.1vh solid #404040;
+    z-index: 1;
+}
+.console:hover {
+    overflow: hidden;
+}
+.console_bottom {
+    border: 0.1vh solid #404040;
+    height: inherit;
+    z-index: 2;
+}
+.console_top {
+    height: 2vh;
+    border-top: 0.25vh solid #404040;
+    border-top-left-radius: 0.5vh;
+    border-top-right-radius: 0.5vh;
+    background-color: #404040;
+    text-align: right;
+    cursor: move;
+    z-index: 3;
+}
+.window_buttons {
+    margin-right: 0.5vw;
+    height: 2vh;
+    z-index: 5;
+}
+.window_buttons:hover {
+    overflow: hidden;
+}
+.sameline {
+    display: inline;
+    overflow: hidden;
+    margin: 0;
+}
+.lss {
+    color: #729FCF;
+    cursor: pointer;
+}
+.right {
+    position: absolute;
+    right: 20vw;
+}
+.point {
+    height: 1.5vh;
+    width: 1.5vh;
+    border-radius: 50%;
+    margin: 0;
+    display: inline-block;
+    cursor: pointer;
+}
+.quack {
+    height: 40vh;
+    width: 50vh;
+    text-overflow: clip;
+    position: static;
+    overflow: hidden;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.quack:hover {
+    overflow: hidden;
+}
+.big {
+    background-color: #262335;
+    height: 100vh;
+}
+.cv {
+    position: absolute;
+    top: 100vh;
+    left: 55vw;
+    margin: 5vh;
+    height: 40vh;
+    text-overflow: clip;
+}
+.cv_text {
+    font-family: Consolas;
+}
+.button_cv {
+    margin-top: 10vh;
+    cursor: not-allowed;
+    background-color: #222222;
+    color:#ffffff;
+    font-size: 20px;
+    margin: 2px;
+    border: 2px solid #ffffff;
+    font-family: Consolas;
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.button_cv:hover {
+    background-color: #111111;
+    color: #222222;
+    font-size: 20px;
+}
+#console {
+    color: #90FC36;
+}
+#console_1 {
+    color: #729FCF;
+}
+#lang_button {
+    color: #262335;
+    position: fixed;
+    right: 0%;
+}
+#langholder {
+    float: right;
+    height: 3vh;
+    font-size: 16px;
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+}
+#welcome {
+    margin-bottom: 5vh;
+    font-size: 42px;
+    color: #ffffff;
+}
+#bio {
+    margin: 5vh;
+    color: #B0B3D6;
+}
+#biotitle {
+    color: #FEDE60;
+    margin: 1vh;
+}
+#galactic {
+    background-color: #222222;
+    color:#ffffff;
+    font-size: 30px;
+    border: 2px solid hsl(305, 80%, 52%);;
+    display: inline-block;
+    cursor: pointer;
+    top: 50%;
+    left: 50%;
+}
+#galactic:hover {
+    background-color: #222222;
+    color: hsl(305, 80%, 52%);
+    font-size: 32px;
+}
+#skills {
+    position: absolute;
+}
+#skills_title {
+    font-size: 20px;
+    position: relative;
+    text-align: center;
+    top: 5%;
+    color: #FEDE60;
+}
+#tree {
+    margin-top: 10vh;
+    text-align: center;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+#quack {
+    color: #404040;
+    z-index: 0;
+}
+#abyss {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 10;
+    position: fixed;
+    background-color: #000000;
+    opacity: 0;
+    pointer-events: none;
+}
+#F {
+    font-size: 100px;
+    font-family: 'Times New Roman', Times, serif;
+    pointer-events: none;
+    z-index: 20;
+}
