@@ -70,6 +70,30 @@ var lang = {
         "en": 'My current skills',
         "fr": "Mes compétences actuelles"
     },
+    "s_lang": {
+        "en": "Spoken languages",
+        "fr": "Langues maîtrisées"
+    },
+    "s_web": {
+        "en": "Web development",
+        "fr": "Développement web"
+    },
+    "s_cms": {
+        "en": "CMS",
+        "fr": "CMS"
+    },
+    "s_plang": {
+        "en": "Coding languages",
+        "fr": "Langages de programmation"
+    },
+    "s_server": {
+        "en": "Server management",
+        "fr": "Gestion serveur"
+    },
+    "s_frm": {
+        "en": "Node.js frameworks",
+        "fr": "Frameworks Node.js"
+    },
     "darkmode": {
         "en": '<br>An extension is modifying the website, some effects cannot be displayed because of it (ex: dark mode extension)',
         "fr": "<br>Une extension modifie le contenu du site, certains effets ne peuvent pas être affichés à caude de cela (ex: extension mode nuit)"
@@ -237,6 +261,12 @@ function update_lang(i)
     text("skills_title", lang.skills_title[i]);
     text("cv_text", lang.cv_text[i]);
     text("cv_dl", lang.cv_dl[i]);
+    text("s_lang", lang.s_lang[i]);
+    text("s_web", lang.s_web[i]);
+    text("s_cms", lang.s_cms[i]);
+    text("s_plang", lang.s_plang[i]);
+    text("s_server", lang.s_server[i]);
+    text("s_frm", lang.s_frm[i]);
 }
 function update_carrousel()
 {
