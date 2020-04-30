@@ -87,8 +87,8 @@ var lang = {
         "fr": "Langages de programmation"
     },
     "s_server": {
-        "en": "Server management",
-        "fr": "Gestion serveur"
+        "en": "Server and domain management",
+        "fr": "Gestion serveur & domaine"
     },
     "s_frm": {
         "en": "Node.js frameworks",
