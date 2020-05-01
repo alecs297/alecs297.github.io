@@ -2,19 +2,28 @@
     font-family: Consolas;
     src: url(Consolas.woff);
 }
+@font-face {
+    font-family: Raleway;
+    src: url(Raleway.woff);
+}
+@font-face {
+    font-family: SourceSansPro;
+    src: url(SourceSansPro.woff);
+}
+@font-face {
+    font-family: WorkSans;
+    src: url(WorkSans.woff);
+}
 ::-webkit-scrollbar {
     display: none;
 }
 body::-webkit-scrollbar {
     display: block;
-    width: 0.5vh;
+    width: 1vh;
     overflow: auto;
 }
 body::-webkit-scrollbar-thumb {
     background: #B0B3D6;
-}
-body::-webkit-scrollbar:hover {
-    width: 1vh;
 }
 div::-webkit-scrollbar {
     display: block;
@@ -39,7 +48,7 @@ body {
     background-color: #222222;
     margin: 0;
     height: 100%;
-    font-family: Consolas, Arial, "Times New Roman", x-locale-body, sans-serif;
+    font-family: SourceSansPro, Arial, "Times New Roman", x-locale-body, sans-serif;
     overflow-x: hidden;
     color: #ffffff;
 }
@@ -83,8 +92,6 @@ a {
 .button:hover {
     background-color: #ffffff;
     color: #222222;
-    font-size: 42px;
-    font-size: 2.2vw;
     box-shadow: 0 12px 16px 0 rgba(255,255,255,0.05), 0 17px 50px 0 rgba(255,255,255,0.1);
 }
 .f_m {
@@ -99,6 +106,7 @@ a {
     height: 40vh;
     position: absolute;
     background-color: #000000;
+    font-family: Consolas;
     width: 50vw;
     font-size: 16px;
     font-size: 0.8vw;
@@ -255,16 +263,22 @@ a {
 }
 #welcome {
     margin-bottom: 5vh;
+    font-family: Raleway;
     font-size: 42px;
     font-size: 2.2vw;
     color: #ffffff;
 }
 #bio {
     margin: 5vh;
+    margin-left: 3vh;
     color: #B0B3D6;
+    padding-left: 1vw;
+    border-left: 1px solid #729FCF;
+    border-radius: 1px;
 }
 #biotitle {
     color: #FEDE60;
+    font-family: SourceSansPro;
     margin: 1vh;
 }
 #galactic {
@@ -285,12 +299,13 @@ a {
     font-size: 1.6vw;
 }
 #skills {
-    position: absolute;
+    margin-top: 10vh;
 }
 #skills_title {
-    top: 2.5vh;
+    top: 3vh;
     font-size: 1.8vw;
     position: relative;
+    font-family: SourceSansPro;
     text-align: center;
     color: #FEDE60;
 }
