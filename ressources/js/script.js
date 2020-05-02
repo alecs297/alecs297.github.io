@@ -122,6 +122,18 @@ var console_p2 = 0;
 var console_p3 = 0;
 var t;
 // https://stackoverflow.com/questions/6121203/how-to-do-fade-in-and-fade-out-with-javascript-and-css
+function fade(element) {
+    var op = 1;  // initial opacity
+    var timer = setInterval(function () {
+        if (op <= 0.1){
+            clearInterval(timer);
+            element.style.display = 'none';
+        }
+        element.style.opacity = op;
+        element.style.filter = 'alpha(opacity=' + op * 100 + ")";
+        op -= op * 0.1;
+    }, 50);
+}
 function unfade(element) {
     var op = 0.1;  // initial opacity
     element.style.display = 'block';
@@ -241,6 +253,25 @@ function couleur(id, texte, tab, n) {
     }
     
 }
+function animate_scroll(state = 0, px = 0) {
+    let souris = document.getElementById("mouse");
+    if (state) {
+        px -= 1;
+        state = ((-1)*px < window.innerHeight*0.01);
+    } else {
+        px += 1;
+        state = (px > window.innerHeight*0.02);
+    }
+    souris.style.top = px + "px";
+    if (!scrolled_console) {
+        setTimeout(function() {
+            animate_scroll(state, px);
+        }, 100);
+    } else {
+        fade(document.getElementById("scroll"));
+    }
+}
+animate_scroll();
 // https://stackoverflow.com/questions/11381673/detecting-a-mobile-browser
 window.mobileCheck = function()
 {

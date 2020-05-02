@@ -39,7 +39,6 @@ div {
 div:hover {
     overflow: auto;
 }
-
 html {
     background-color: #222222;
     margin: 0;
@@ -54,6 +53,10 @@ body {
 }
 a {
     color: #FEDE60;
+}
+pre {
+    font-size: 12px;
+    font-size: 0.625vw;
 }
 .overlay {
     text-align: center;
@@ -280,6 +283,26 @@ a {
     color: #FEDE60;
     font-family: SourceSansPro;
     margin: 1vh;
+}
+#scroll {
+    position: absolute;
+    top: 88vh;
+    width: 100vw;
+    height: 10vh;
+    color: #B0B3D6;
+    font-size: 12px;
+    font-size: 0.65vh;
+    text-align: center;
+}
+#mouse {
+    position: relative;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+}
+#cv_text {
+    font-size: 24px;
+    font-size: 1.25vw;
+
 }
 #galactic {
     background-color: #222222;
