@@ -86,16 +86,21 @@ pre {
     font-size: 2.1vw;
     font-family: Consolas, sans-serif;
     border: 2px solid #ffffff;
+    border: 0.105vw solid #ffffff;
     display: inline-block;
     cursor: pointer;
     margin: 2px;
+    margin: 0.105vw;
     margin-top: 5px;
     margin-bottom: 5px;
+    margin-top: 0.26vw;
+    margin-bottom: 0.26vw;
 }
 .button:hover {
     background-color: #ffffff;
     color: #222222;
     box-shadow: 0 12px 16px 0 rgba(255,255,255,0.05), 0 17px 50px 0 rgba(255,255,255,0.1);
+    box-shadow: 0 0.625vw 0.83vw 0 rgba(255,255,255,0.05), 0 0.885vw 4.16vw 0 rgba(255,255,255,0.1);
 }
 .f_m {
     position: relative;
@@ -202,10 +207,14 @@ pre {
     font-size: 1vw;
     margin: 2px;
     border: 2px solid #ffffff;
+    margin:  0.105vw;
+    border: 0.105vw solid #ffffff;
     font-family: Consolas;
     display: inline-block;
     margin-top: 5px;
     margin-bottom: 5px;
+    margin-top: 0.26vw;
+    margin-bottom: 0.26vw;
 }
 .button_cv:hover {
     background-color: #111111;
@@ -223,7 +232,7 @@ pre {
 .skill_item {
     width: 48vw;
     text-align: center;
-    height: 15vh;
+    height: 8vw;
 }
 .skill_item button {
     background-color: #262335;
@@ -231,19 +240,24 @@ pre {
     width: 10vw;
     font-size: 16px;
     font-size: 0.8vw;
+    margin: 2px;
     border: 2px solid #ffffff;
+    margin:  0.105vw;
+    border: 0.105vw solid #ffffff;
     font-family: Consolas;
     display: inline-block;
     cursor: pointer;
-    margin: 2px;
     margin-top: 5px;
     margin-bottom: 5px;
-    height: 5vh;
+    margin-top: 0.26vw;
+    margin-bottom: 0.26vw;
+    height: 2vw;
 }
 .skill_item button:hover {
     background-color: #ffffff;
     color: #222222;
     box-shadow: 0 12px 16px 0 rgba(255,255,255,0.05), 0 17px 50px 0 rgba(255,255,255,0.1);
+    box-shadow: 0 0.625vw 0.83vw 0 rgba(255,255,255,0.05), 0 0.885vw 4.16vw 0 rgba(255,255,255,0.1);
 }
 #console {
     color: #90FC36;
@@ -254,6 +268,7 @@ pre {
 #lang_button {
     color: #262335;
     position: fixed;
+    width: min-content;
     right: 0%;
 }
 #langholder {
@@ -262,7 +277,10 @@ pre {
     font-size: 16px;
     font-size: 0.8vw;
     border: 1px solid #ffffff;
+    border: 0.05vw solid #ffffff;
     border-radius: 4px;
+    border-radius: 0.21vw;
+    width: 2.5vw;
 }
 #welcome {
     margin-bottom: 5vh;
@@ -278,6 +296,8 @@ pre {
     padding-left: 1vw;
     border-left: 1px solid #729FCF;
     border-radius: 1px;
+    border-left: 0.05vw solid #729FCF;
+    border-radius: 0.05vw;
 }
 #biotitle {
     color: #FEDE60;
@@ -309,7 +329,8 @@ pre {
     color:#ffffff;
     font-size: 30px;
     font-size: 1.5vw;
-    border: 2px solid hsl(305, 80%, 52%);;
+    border: 2px solid hsl(305, 80%, 52%);
+    border: 0.105vw solid hsl(305, 80%, 52%);
     display: inline-block;
     cursor: pointer;
     top: 50%;

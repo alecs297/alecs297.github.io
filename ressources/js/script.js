@@ -106,7 +106,7 @@ var projets = {
     "IoT": "Random projects with esp32, arduino, digi-spark, RPI<br>WOL over Google Assistant, custom small APIs, custom home security, a lot of ifttt integrations.",
     "Java": "GuessWho: GUI based game dependant on a server, from the principle of Identifiable Images of Bystanders Extracted from Corneal Reflections<br>Android Apps: Published game - <a target='_blank'href='https://play.google.com/store/apps/details?id=fr.fouiny.grass'>Enigma - Second Anniversary Puzzle</a><br>Unpublished apps: FindMyPhone over sms, RGB IoT controller",
     "Old_Stuff": "Minecraft servers & plugins, some of them being for sale.",
-    "Pentesting": "Ethical hacking: rubber duckies, mitm (arp & dns spoof), simulated phishing campaigns for some companies, reverse-engineered my highschool network. Just discovered VoIP.<br>Tried out kali linux, zAnti, droidsheep, csploit, dsploit, metasploit, android app injections, SSL strip, evilginx2. Not fully-experienced but highly passionated about this domain.",
+    "Pentesting": "Ethical hacking: rubber duckies, mitm (arp & dns spoof), simulated phishing campaigns for some companies, reverse-engineered my highschool network. Just discovered VoIP.<br>Tried out kali linux, zAnti, droidsheep, csploit, dsploit, metasploit, android app injections, SSL strip, evilginx2. Not fully-experienced but highly passionated about this domain. Started doing CTFs online not so long ago",
     "Shopify": "Multiple websites for third parties<br>My own papercraft store concept (fully functionnal, for sale)",
     "Treasure_Hunts": "Occasionnal treasure hunts & internet puzzles: <a target='_blank'href='https://the-enigma.party'>Enigma</a>",
     "Websites": "Misc static webpages, Misc dynamic websites (design not included)<br>Wordpress, CPanels, Shopify, buycraft and other CMS<br>This website, 90% hand made (had to use some third party functions)."
@@ -145,6 +145,20 @@ function unfade(element) {
         element.style.filter = 'alpha(opacity=' + op * 100 + ")";
         op += op * 0.1;
     }, 10);
+}
+function upnumber(element, n, delay) {
+    let el = document.getElementById(element);
+    let i = parseInt(el.innerHTML);
+    let time = delay;
+    if (i < n) {
+        i += 1;
+        time += (delay*4)*(i > n/2);
+        time += (delay*8)*(i > (3*n)/4);
+        el.innerHTML = i;
+        setTimeout(function() {
+            upnumber(element, n, delay);
+        }, time);
+    }
 }
 function get(id)
 {
