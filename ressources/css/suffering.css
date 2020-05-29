@@ -256,8 +256,12 @@ pre {
 .skill_item button:hover {
     background-color: #ffffff;
     color: #222222;
-    box-shadow: 0 12px 16px 0 rgba(255,255,255,0.05), 0 17px 50px 0 rgba(255,255,255,0.1);
-    box-shadow: 0 0.625vw 0.83vw 0 rgba(255,255,255,0.05), 0 0.885vw 4.16vw 0 rgba(255,255,255,0.1);
+}
+.random {
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    background-color: #262335;
+    height: 60vh;
 }
 #console {
     color: #90FC36;
@@ -324,6 +328,7 @@ pre {
     font-size: 1.25vw;
 
 }
+
 #galactic {
     background-color: #222222;
     color:#ffffff;
@@ -346,12 +351,14 @@ pre {
     margin-top: 10vh;
 }
 #skills_title {
+    margin-top: 10vh;
+    margin-left: 10vw;
     top: 3vh;
-    font-size: 1.8vw;
-    position: relative;
+    font-size: 42px;
+    font-size: 2.2vw;
     font-family: SourceSansPro;
-    text-align: center;
-    color: #FEDE60;
+    text-align: left;
+    color: #ffffff;
 }
 #tree {
     margin-top: 6vh;

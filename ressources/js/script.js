@@ -67,8 +67,8 @@ var lang = {
         "fr": "Désolé, ce site web n'est pas encore prêt pour les appareils mobiles, utilisez un ordinateur pour accèder à cette expérience.    -Alex"
     },
     "skills_title": {
-        "en": 'My current skills',
-        "fr": "Mes compétences actuelles"
+        "en": "Looking for something specific?<a> Here's what I can help with.</a>",
+        "fr": "Une idée en tête?<a> Voici comment je peux vous aider.</a>"
     },
     "s_lang": {
         "en": "Spoken languages",
