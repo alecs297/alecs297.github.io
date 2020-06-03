@@ -297,8 +297,11 @@ function update_lang(i)
 {
     current_lang = i;
     carrousel = 42;
+    scrolled_console = 0;
+    scrolled_tree = 0;
     text("welcome", "");
     text("biotitle", "");
+    text("projects", "");
     text("langholder", i);
     ecrire("welcome", lang.welcome[i], 0, 50);
     ecrire("biotitle", lang.biotitle[i], 0, 50);
@@ -351,7 +354,7 @@ function myonscroll()
         scrolled_console = 1;
         ecrire("projects", lang.projects[current_lang], 0, 40, 1);
     }
-    if (!scrolled_tree && (h > window.innerHeight*0.7)) {
+    if (!scrolled_tree && (h > window.innerHeight*1.5)) {
         scrolled_tree = 1;
         let tab = [];
         let texte = document.getElementById("tree").innerHTML;

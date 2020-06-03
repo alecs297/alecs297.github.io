@@ -209,6 +209,7 @@ pre {
     border: 2px solid #ffffff;
     margin:  0.105vw;
     border: 0.105vw solid #ffffff;
+    border-radius: 0.5vh;
     font-family: Consolas;
     display: inline-block;
     margin-top: 5px;
