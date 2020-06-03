@@ -244,6 +244,7 @@ pre {
     border: 2px solid #ffffff;
     margin:  0.105vw;
     border: 0.105vw solid #ffffff;
+    border-radius: 1vh;
     font-family: Consolas;
     display: inline-block;
     cursor: pointer;
