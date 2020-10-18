@@ -298,7 +298,6 @@ function update_lang(i)
     current_lang = i;
     carrousel = 42;
     scrolled_console = 0;
-    scrolled_tree = 0;
     text("welcome", "");
     text("biotitle", "");
     text("projects", "");
