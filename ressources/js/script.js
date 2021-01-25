@@ -32,71 +32,89 @@ var age = new Date().getFullYear() - 2001 - ((new Date().getMonth() < 6) || ((ne
 var lang = {
     "title": {
         "en": "Welcome.",
-        "fr": "Bienvenue."
+        "fr": "Bienvenue.",
+        "galactic": "∴ŀꖎᓵフᒲŀ"
     },
     "biotitle": {
         "en": "Who am I?",
-        "fr": "Qui suis-je?"
+        "fr": "Qui suis-je?",
+        "galactic": "∴ŀꖎᓵフᒲŀ"
+        
     },
     "bio": {
         "en": "Currently " + age + " years old, I am a student at Pau's <a target='_blank'href='https://eisti.fr/en'>EISTI engineering school</a>, in France. Passionated by computers since my early childhood, I accumulated a decent base of knowledge in different domains and have taken part in countless projects.<br><br>While having a preference for web related activities, <br>I have experience with <a>Node.js, PHP, HTML/CSS, server management, web APIs, python, domain administration, and other cool stuff</a>. Perpetually improving my software development skills, I can be a very useful asset for your projects.",
-        "fr": "Actuellement âgé de " + age + " ans, je suis un étudiant de <a target='_blank'href='https://eisti.fr/'>l'EISTI de Pau</a> souhaitant poursuivre vers une carrière d'ingénieur. Passionné par la technologie depuis tout petit, j'ai pu bâtir une bonne base de connaissance dans de nombreux domaines et participer à d'innombrables projets au fil des années.<br><br>Ayant tout de même une préférence pour le développement web, <br> Je possède de l'expérience avec <a>Node.js, PHP, HTML/CSS, la gestion serveur, les web APIs, python, la gestion des ndd et autres domaines passionants</a>. Améliorant mes compétences perpétuellement, je peux être un atout pour vos projets."
+        "fr": "Actuellement âgé de " + age + " ans, je suis un étudiant de <a target='_blank'href='https://eisti.fr/'>l'EISTI de Pau</a> souhaitant poursuivre vers une carrière d'ingénieur. Passionné par la technologie depuis tout petit, j'ai pu bâtir une bonne base de connaissance dans de nombreux domaines et participer à d'innombrables projets au fil des années.<br><br>Ayant tout de même une préférence pour le développement web, <br> Je possède de l'expérience avec <a>Node.js, PHP, HTML/CSS, la gestion serveur, les web APIs, python, la gestion des ndd et autres domaines passionants</a>. Améliorant mes compétences perpétuellement, je peux être un atout pour vos projets.",
+        "galactic": "ᓵ⚍።።ŀリﬧׅꖎ॥ " + age + " ॥ŀᔑ።ነ フꖎ↸._ ╎ ᔑᒲ ᔑ ነﬧׅ⚍↸ŀリﬧׅ ᔑﬧׅ pᔑ⚍'ነ <a target='_blank'href='https://obito.fr/'>ŀ╎ነﬧׅ╎ ŀリㅓ╎リŀŀ።╎リㅓ ነᓵ〒フフꖎ</a>, ╎リ f።ᔑリᓵŀ. ¡!ᔑነነ╎フリᔑﬧׅŀ↸ ʖ॥ ᓵフᒲ¡!⚍ﬧׅŀ።ነ ነ╎リᓵŀ ᒲ॥ ŀᔑ።ꖎ॥ ᓵ〒╎ꖎ↸〒フフ↸._ ╎ ᔑᓵᓵ⚍ᒲ⚍ꖎᔑﬧׅŀ↸ ᔑ ↸ŀᓵŀリﬧׅ ʖᔑነŀ フ⎓ ꖌリフ∴ꖎŀ↸ㅓŀ ╎リ ↸╎⎓⎓ŀ።ŀリﬧׅ ↸フᒲᔑ╎リነ ᔑリ↸ 〒ᔑ⍊ŀ ﬧׅᔑꖌŀリ ¡!ᔑ።ﬧׅ ╎リ ᓵフ⚍リﬧׅꖎŀነነ ¡!።フ፧ŀᓵﬧׅነ.<br><br>∴〒╎ꖎŀ 〒ᔑ⍊╎リㅓ ᔑ ¡!።ŀ⎓ŀ።ŀリᓵŀ ⎓フ። ∴ŀʖ ።ŀꖎᔑﬧׅŀ↸ ᔑᓵﬧׅ╎⍊╎ﬧׅ╎ŀነ, <br>╎ 〒ᔑ⍊ŀ ŀ̇/¡!ŀ።╎ŀリᓵŀ ∴╎ﬧׅ〒 <a>リフ↸ŀ.፧ነ, ¡!〒¡!, 〒ﬧׅᒲꖎ/ᓵነነ, ነŀ።⍊ŀ። ᒲᔑリᔑㅓŀᒲŀリﬧׅ, ∴ŀʖ ᔑ¡!╎ነ, ¡!॥ﬧׅ〒フリ._ ↸フᒲᔑ╎リ ᔑ↸ᒲ╎リ╎ነﬧׅ።ᔑﬧׅ╎フリ._ ᔑリ↸ フﬧׅ〒ŀ። ᓵフフꖎ ነﬧׅ⚍⎓⎓</a>. ¡!ŀ።¡!ŀﬧׅ⚍ᔑꖎꖎ॥ ╎ᒲ¡!።フ⍊╎リㅓ ᒲ॥ ነフ⎓ﬧׅ∴ᔑ።ŀ ↸ŀ⍊ŀꖎフ¡!ᒲŀリﬧׅ ነꖌ╎ꖎꖎነ._ ╎ ᓵᔑリ ʖŀ ᔑ ⍊ŀ።॥ ⚍ነŀ⎓⚍ꖎ ᔑነነŀﬧׅ ⎓フ። ॥フ⚍። ¡!።フ፧ŀᓵﬧׅነ."
     },
     "welcome": {
         "en": "Hey, I code stuff.",
-        "fr": "Hey, je code des choses."
+        "fr": "Hey, je code des choses.",
+        "galactic": "〒ŀ॥._ ╎ ᓵフ↸ŀ ነﬧׅ⚍⎓⎓."
     },
     "projects": {
         "en": 'echo "Some of my projects, without any order (clickable)" && ls',
-        "fr": 'echo "Quelques projets, non rangés (cliquables, en anglais)" && ls'
+        "fr": 'echo "Quelques projets, non rangés (cliquables, en anglais)" && ls',
+        "galactic": 'echo "ነフᒲŀ フ⎓ ᒲ॥ ¡!።フ፧ŀᓵﬧׅነ._ ∴╎ﬧׅ〒フ⚍ﬧׅ ᔑリ॥ フ።↸ŀ። (ᓵꖎ╎ᓵꖌᔑʖꖎŀ)" && ls'
     },
     "ls": {
         "en": 'Some of my projects, without any order (clickable)',
-        "fr": 'Quelques projets, non rangés (cliquables, en anglais)'
+        "fr": 'Quelques projets, non rangés (cliquables, en anglais)',
+        "galactic": "ነフᒲŀ フ⎓ ᒲ॥ ¡!።フ፧ŀᓵﬧׅነ._ ∴╎ﬧׅ〒フ⚍ﬧׅ ᔑリ॥ フ።↸ŀ። (ᓵꖎ╎ᓵꖌᔑʖꖎŀ)"
     },
     "cv_text": {
         "en": "How about we build something together? Let's have a talk!",
-        "fr": "Et si on construisait quelque chose ensemble? Discutons!"
+        "fr": "Et si on construisait quelque chose ensemble? Discutons!",
+        "galactic": "〒フ∴ ᔑʖフ⚍ﬧׅ ∴ŀ ʖ⚍╎ꖎ↸ ነフᒲŀﬧׅ〒╎リㅓ ﬧׅフㅓŀﬧׅ〒ŀ።? lŀﬧׅ'ነ 〒ᔑ⍊ŀ ᔑ ﬧׅᔑꖎꖌ!"
     },
     "cv_dl": {
         "en": "CV coming soon",
-        "fr": "Mon CV? Bientôt"
+        "fr": "Mon CV? Bientôt",
+        "galactic": "ᓵ⍊ ᓵフᒲ╎リㅓ ነフフリ"
     },
     "sad": {
         "en": "Hey, it seems like you're using a phone. I've made this website to show off pure JavaScript, therefore this website is designed for desktop only, I'll create a mobile version someday.    -Alex",
-        "fr": "Il semblerait que vous utilisez un appareil mobile, ce site web a été conçu pour s'amuser avec du JavaScript, utilisez un ordinateur pour accèder à cette expérience.    -Alex"
+        "fr": "Il semblerait que vous utilisez un appareil mobile, ce site web a été conçu pour s'amuser avec du JavaScript, utilisez un ordinateur pour accèder à cette expérience.    -Alex",
+        "galactic": "〒ŀ॥._ ╎ﬧׅ ነŀŀᒲነ ꖎ╎ꖌŀ ॥フ⚍'።ŀ ⚍ነ╎リㅓ ᔑ ¡!〒フリŀ. ╎'⍊ŀ ᒲᔑ↸ŀ ﬧׅ〒╎ነ ∴ŀʖነ╎ﬧׅŀ ﬧׅフ ነ〒フ∴ フ⎓⎓ ¡!⚍።ŀ ፧ᔑ⍊ᔑነᓵ።╎¡!ﬧׅ._ ﬧׅ〒ŀ።ŀ⎓フ።ŀ ﬧׅ〒╎ነ ∴ŀʖነ╎ﬧׅŀ ╎ነ ↸ŀነ╎ㅓリŀ↸ ⎓フ። ↸ŀነꖌﬧׅフ¡! フリꖎ॥._ ╎'ꖎꖎ ᓵ።ŀᔑﬧׅŀ ᔑ ᒲフʖ╎ꖎŀ ⍊ŀ።ነ╎フリ ነフᒲŀ↸ᔑ॥. -ᔑꖎŀ̇/"
     },
     "skills_title": {
         "en": "Looking for something specific?<a> Here's what I can help with.</a>",
-        "fr": "Une idée en tête?<a> Voici comment je peux vous aider.</a>"
+        "fr": "Une idée en tête?<a> Voici comment je peux vous aider.</a>",
+        "galactic": "ꖎフフꖌ╎リㅓ ⎓フ። ነフᒲŀﬧׅ〒╎リㅓ ነ¡!ŀᓵ╎⎓╎ᓵ?<a> 〒ŀ።ŀ'ነ ∴〒ᔑﬧׅ ╎ ᓵᔑリ 〒ŀꖎ¡! ∴╎ﬧׅ〒.</a>"
     },
     "s_lang": {
         "en": "Spoken languages",
-        "fr": "Langues maîtrisées"
+        "fr": "Langues maîtrisées",
+        "galactic": "ነ¡!フꖌŀリ ꖎᔑリㅓ⚍ᔑㅓŀነ"
     },
     "s_web": {
         "en": "Web development",
-        "fr": "Développement web"
+        "fr": "Développement web",
+        "galactic": "∴ŀʖ ↸ŀ⍊ŀꖎフ¡!ᒲŀリﬧׅ"
     },
     "s_cms": {
         "en": "CMS",
-        "fr": "CMS"
+        "fr": "CMS",
+        "galactic": "ᓵᒲነ"
     },
     "s_plang": {
         "en": "Coding languages",
-        "fr": "Langages de programmation"
+        "fr": "Langages de programmation",
+        "galactic": "ᓵフ↸╎リㅓ ꖎᔑリㅓ⚍ᔑㅓŀነ"
     },
     "s_server": {
         "en": "Server and domain management",
-        "fr": "Gestion serveur & domaine"
+        "fr": "Gestion serveur & domaine",
+        "galactic": "ነŀ።⍊ŀ። ᔑリ↸ ↸フᒲᔑ╎リ ᒲᔑリᔑㅓŀᒲŀリﬧׅ"
     },
     "s_frm": {
         "en": "Node.js frameworks",
-        "fr": "Frameworks Node.js"
+        "fr": "Frameworks Node.js",
+        "galactic": "Node.js ⎓።ᔑᒲŀ∴フ።ꖌነ"
     },
     "darkmode": {
         "en": '<br>An extension is modifying the website, some effects cannot be displayed because of it (ex: dark mode extension)',
-        "fr": "<br>Une extension modifie le contenu du site, certains effets ne peuvent pas être affichés à caude de cela (ex: extension mode nuit)"
+        "fr": "<br>Une extension modifie le contenu du site, certains effets ne peuvent pas être affichés à caude de cela (ex: extension mode nuit)",
+        "galactic": "<br>ᔑリ ŀ̇/ﬧׅŀリነ╎フリ ╎ነ ᒲフ↸╎⎓॥╎リㅓ ﬧׅ〒ŀ ∴ŀʖነ╎ﬧׅŀ._ ነフᒲŀ ŀ⎓⎓ŀᓵﬧׅነ ᓵᔑリリフﬧׅ ʖŀ ↸╎ነ¡!ꖎᔑ॥ŀ↸ ʖŀᓵᔑ⚍ነŀ フ⎓ ╎ﬧׅ (ŀ̇/: ↸ᔑ።ꖌ ᒲフ↸ŀ ŀ̇/ﬧׅŀリነ╎フリ)"
     }
 }
 var projets = {
