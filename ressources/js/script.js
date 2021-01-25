@@ -28,7 +28,7 @@ var languages_hell = [
     "●︎♋︎■︎♑︎◆︎♋︎♑︎♏︎?",
     "Language?"
 ];
-var age = new Date().getFullYear() - 2001 - ((new Date().getMonth() < 6) || ((new Date().getMonth() == 6) && (new Date().getDate() < 29))); // Yes this is my birthday, bonus points if you remember it
+var age = new Date().getFullYear() - 2001 - ((new Date().getMonth() < 6) || ((new Date().getMonth() == 6) && (new Date().getDate() < 29))); // Yes this is my birthday
 var lang = {
     "title": {
         "en": "Welcome.",
@@ -39,12 +39,12 @@ var lang = {
         "fr": "Qui suis-je?"
     },
     "bio": {
-        "en": "Currently " + age + " years old, I am a student at Pau's <a target='_blank'href='https://eisti.fr/en'>EISTI engineering school</a>, in France. Passionated by computers since my early childhood, I accumulated a decent base of knowledge in different domains and have taken part in countless projects.<br><br>While having a preference for web related activities, <br>I have experience with <a>Node.js, PHP, HTML/CSS, server management, web APIs, Java, python, domain administration, some basic C and other cool stuff</a>. Perpetually improving my software development skills, I can be a very useful asset for your projects.",
-        "fr": "Actuellement âgé de " + age + " ans, je suis un étudiant de <a target='_blank'href='https://eisti.fr/'>l'EISTI de Pau</a> souhaitant poursuivre vers une carrière d'ingénieur. Passionné par la technologie depuis tout petit, j'ai pu bâtir une bonne base de connaissance dans de nombreux domaines et participer à d'innombrables projets au fil des années.<br><br>Ayant tout de même une préférence pour le développement web, <br> Je possède de l'expérience avec <a>Node.js, PHP, HTML/CSS, la gestion serveur, les web APIs, Java, python, la gestion des ndd, les bases du C et autres domaines passionants</a>. Améliorant mes compétences perpétuellement, je peux être un atout pour vos projets."
+        "en": "Currently " + age + " years old, I am a student at Pau's <a target='_blank'href='https://eisti.fr/en'>EISTI engineering school</a>, in France. Passionated by computers since my early childhood, I accumulated a decent base of knowledge in different domains and have taken part in countless projects.<br><br>While having a preference for web related activities, <br>I have experience with <a>Node.js, PHP, HTML/CSS, server management, web APIs, python, domain administration, and other cool stuff</a>. Perpetually improving my software development skills, I can be a very useful asset for your projects.",
+        "fr": "Actuellement âgé de " + age + " ans, je suis un étudiant de <a target='_blank'href='https://eisti.fr/'>l'EISTI de Pau</a> souhaitant poursuivre vers une carrière d'ingénieur. Passionné par la technologie depuis tout petit, j'ai pu bâtir une bonne base de connaissance dans de nombreux domaines et participer à d'innombrables projets au fil des années.<br><br>Ayant tout de même une préférence pour le développement web, <br> Je possède de l'expérience avec <a>Node.js, PHP, HTML/CSS, la gestion serveur, les web APIs, python, la gestion des ndd et autres domaines passionants</a>. Améliorant mes compétences perpétuellement, je peux être un atout pour vos projets."
     },
     "welcome": {
-        "en": "Probably the solution to all your problems.",
-        "fr": "Probablement la solution à tous vos problèmes."
+        "en": "Hey, I code stuff.",
+        "fr": "Hey, je code des choses."
     },
     "projects": {
         "en": 'echo "Some of my projects, without any order (clickable)" && ls',
@@ -59,12 +59,12 @@ var lang = {
         "fr": "Et si on construisait quelque chose ensemble? Discutons!"
     },
     "cv_dl": {
-        "en": "Download my curriculum vitae",
-        "fr": "Téléchargez mon curriculum vitae"
+        "en": "CV coming soon",
+        "fr": "Mon CV? Bientôt"
     },
     "sad": {
-        "en": 'Sadly, this website is designed for desktop only, I cannot yet provide the full experience on mobile.    -Alex',
-        "fr": "Désolé, ce site web n'est pas encore prêt pour les appareils mobiles, utilisez un ordinateur pour accèder à cette expérience.    -Alex"
+        "en": "Hey, it seems like you're using a phone. I've made this website to show off pure JavaScript, therefore this website is designed for desktop only, I'll create a mobile version someday.    -Alex",
+        "fr": "Il semblerait que vous utilisez un appareil mobile, ce site web a été conçu pour s'amuser avec du JavaScript, utilisez un ordinateur pour accèder à cette expérience.    -Alex"
     },
     "skills_title": {
         "en": "Looking for something specific?<a> Here's what I can help with.</a>",
@@ -100,16 +100,16 @@ var lang = {
     }
 }
 var projets = {
-    "C": "Learning in progress, most complete project so far: Huffman encryption & decryption program.",
+    "C_Python": "Languages I've worked with in school, not fluent but made some fun projects",
     "Discord_Bots": "Using discord.js API, a lot of different bots. Entertainement bots, utility bots, moderation bots, private bots...<br>Most complete one: <a target='_blank'href='https://top.gg/bot/442652120999526411'>EnigmaBot</a><br><br>Other active bots: HaveIBeenPwned, 2FA, TeamManager, OnlineSim API, UntoldRadio...",
-    "Domains_Servers": "Passioned about bulk buying fun domain names, basic but decent DNS knowledge. Know my way with apache, php, nodejs, letsencrypt and virtualhosts (on linux, of course)",
-    "IoT": "Random projects with esp32, arduino, digi-spark, RPI<br>WOL over Google Assistant, custom small APIs, custom home security, a lot of ifttt integrations.",
-    "Java": "GuessWho: GUI based game dependant on a server, from the principle of Identifiable Images of Bystanders Extracted from Corneal Reflections<br>Android Apps: Published game - <a target='_blank'href='https://play.google.com/store/apps/details?id=fr.fouiny.grass'>Enigma - Second Anniversary Puzzle</a><br>Unpublished apps: FindMyPhone over sms, RGB IoT controller",
-    "Old_Stuff": "Minecraft servers & plugins, some of them being for sale.",
+    "Domains_Servers": "Passioned about bulk buying fun domain names, basic but decent DNS knowledge. Know my way with apache, php, nodejs, letsencrypt and virtualhosts",
+    "IoT": "Random projects with esp32, arduinos and other connected devices<br>Wake on Lan, automated lights, you name it.",
+    //"Java": "GuessWho: GUI based game dependant on a server, from the principle of Identifiable Images of Bystanders Extracted from Corneal Reflections<br>Android Apps: Published game - <a target='_blank'href='https://play.google.com/store/apps/details?id=fr.fouiny.grass'>Enigma - Second Anniversary Puzzle</a><br>Unpublished apps: FindMyPhone over sms, RGB IoT controller",
+    //"Old_Stuff": "Minecraft servers & plugins, some of them being for sale.",
     "Pentesting": "Ethical hacking: rubber duckies, mitm (arp & dns spoof), simulated phishing campaigns for some companies, reverse-engineered my highschool network. Just discovered VoIP.<br>Tried out kali linux, zAnti, droidsheep, csploit, dsploit, metasploit, android app injections, SSL strip, evilginx2. Not fully-experienced but highly passionated about this domain. Started doing CTFs online not so long ago",
-    "Shopify": "Multiple websites for third parties<br>My own papercraft store concept (fully functionnal, for sale)",
-    "Treasure_Hunts": "Occasionnal treasure hunts & internet puzzles: <a target='_blank'href='https://the-enigma.party'>Enigma</a>",
-    "Websites": "Misc static webpages, Misc dynamic websites (design not included)<br>Wordpress, CPanels, Shopify, buycraft and other CMS<br>This website, 90% hand made (had to use some third party functions)."
+    "Shopify": "Multiple websites for third parties<br>I enjoy enhancing online shopping experiences",
+    "Treasure_Hunts": "Occasionnal treasure hunts, CTFs and other internet puzzles: <a target='_blank'href='https://the-enigma.party'>Enigma</a>",
+    "Websites": "Misc static webpages, Misc dynamic websites, covering a wide range of activities<br>Wordpress, CPanels, Shopify, buycraft and other CMS<br>This website was made with mostly JavaScript, don't worry, the rest of them are mobile friendly."
 }
 var current_lang = "en";
 var carrousel = 0;
