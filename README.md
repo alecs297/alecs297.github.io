@@ -1,3 +1,3 @@
-# moldovan-alexand.ru
+# alex.js.org
 
 My interactive résumé
