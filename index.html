@@ -5,199 +5,49 @@
         <title>Welcome to Alex's</title>
         <link rel="shortcut icon" href="ressources/images/favicon.png" type="image/x-icon">
         <link href="ressources/css/suffering.css" type="text/css" rel="stylesheet">
+        <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>
     </head>
     <body>
-        <div id="all" hidden>
-            <div id="lang_button">
-                <button id='langholder' class="button"></button>
-            </div>
-
-
-            <div id="front" class="big">
-                <div class="f_m">
-                    <h1 id="welcome"></h1>
-                    <h1 id="biotitle"></h1>
-                    <p id="bio"></p>
-                </div>
-                <div id="scroll">
-                    <span class="iconify" data-icon="uil:scroll" data-width="1vw" data-height="1vw"></span>
-                    <br>
-                    <span id = "mouse" class="iconify" data-icon="simple-line-icons:mouse" data-width="1vw" data-height="1vw"></span>
-                    <br><br>
-                    <span class="iconify" data-icon="uil:scroll" data-width="1vw" data-height="1vw"></span>
-                </div>
-            </div>
-
-
-            <div class="sameline">
-                <pre class="quack" id="quack">
-                                     @@@@@@@@@@@                                        
-                                    @@@..@@@@.@@@                                       
-                           @@@@@@@@@@........#@@@                                       
-                       @@@@@...............@@@@@@@@                                     
-                     @@@@@................@........@@@@                                 
-                    @@@.........@............@@......@@@@                               
-                  @@@.........@@@(@@.......@@@@@.......@@@                              
-                 @@@..........@@((%@......@@@((@.........@@@                            
-                @@@...........@@@@@@.......@@@@@@.........@@@                           
-               @@@.............@@@@..........@@............@@                           
-              @@@...................../@@@@%...............@@@                          
-             @@@.................@@@@%*****@@@@@............@@                          
-             @@@/................@@@@$###///****@@..........@@@                         
-             @@@@...................,***####$@@@@...........@@                          
-               @@$.................********................@@                           
-                 @@@@@@@@@@@@@@@@@#*******..............%@@@                            
-                    @@............*******..........@@@@@@@                              
-                  @@@..........@@@.*****......@@@.......@@@                             
-                  @@@.....@@$....@$///........@@....@@..(@@@                            
-                  @@@.......@@@@.$%/*.........@@.@@@%....@@@                            
-                 @@@@...........@@.............@@@......%@@@@@                          
-             @@@@**@@@..................................@@***@@@                        
-            @@@*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@.@@@@@@@@@@@@@@                        
-                </pre>
-            </div>
-            <div id="cv" class="cv" class="sameline">
-                <h1 id="cv_text"></h1>
-                <button id="cv_dl" class="button_cv"></button>
-                <div id="project_info"><br><br><br><~ *click*</div>
-            </div>
-            <div id="window" class="console" class="sameline">
-                <div id="windowheader" class="console_top">
-                    <div class="window_buttons">
-                        <div id="min_button" class="point" style="background:#F1AE1B;"></div>
-                        <div id="max_button" class="point" style="background:#59C837;"></div>
-                        <div id="close_button" class="point" style="background:#E9524A;"></div>
-                    </div>
-                </div>
-                <div class="console_bottom">
-                    <p id="console" class="sameline">root@meursault</p><p class="sameline">:</p><p id="console_1" class="sameline">~/work/public_done </p><p class="sameline">$ </p><p id="projects" class="sameline"></p>
-                    <div id="project_list"></div>
-                </div>
-            </div>
-
-            <div id="back" class="big">
-                <div id="dark_test"><span style="color: white"></span></div>
-                <h1 id="skills_title"></h1>
-                <div id="skills">
-                    <div id="s_left" style="float: left;">
-                        <p id="s_lang" class="skill_title"></p>
-                        <div class="skill_item">
-                            <button><span class="iconify" data-icon="emojione:flag-for-united-kingdom"></span> English</button>
-                            <button><span class="iconify" data-icon="emojione:flag-for-france"></span> Français</button>
-                            <button><span class="iconify" data-icon="emojione:flag-for-romania"></span> Română</button>
-                        </div>
-                        <p id="s_web" class="skill_title"></p>
-                        <div class="skill_item">
-                            <button><span class="iconify" data-icon="logos:html-5"></span> HTML</button>
-                            <button><span class="iconify" data-icon="logos:javascript"></span> JavaScript</button>
-                            <button><span class="iconify" data-icon="logos:css-3"></span> CSS</button>
-                            <button><span class="iconify" data-icon="bi:bootstrap"></span> Bootstrap</button>
-                            <button><span class="iconify" data-icon="logos:php"></span> PHP</button>
-                            <button><span class="iconify" data-icon="cib:mysql"></span> MySQL</button>
-                            <button><span class="iconify" data-icon="fa-brands:node-js"></span> Express.js</button>
-                        </div>
-                        <p id="s_cms" class="skill_title"></p>
-                        <div class="skill_item">
-                            <button><span class="iconify" data-icon="dashicons:wordpress-alt"></span> Wordpress</button>
-                            <button><span class="iconify" data-icon="logos:shopify"></span> Shopify</button>
-                            <button><span class="iconify" data-icon="noto:letter-t"></span> Tebex.io</button>
-                            <button><span class="iconify" data-icon="logos:cpanel"></span> cPanel</button>
-                            <!-- I swear it wasn't consentual <button><span class="iconify" data-icon="cib:wix"></span> Wix</button> -->
-                            <button><span class="iconify" data-icon="jam:squarespace-square"></span> Squarespace</button>
-                            <button> [...] </button>
-                        </div>
-                    </div>
-                    <div id="s_right" style="float: right;">
-                        <p id="s_plang" class="skill_title"></p>
-                        <div class="skill_item">
-                            <button><span class="iconify" data-icon="logos:nodejs"></span> Node.js (& JS)</button>
-                            <button><span class="iconify" data-icon="logos:php"></span> PHP</button>
-                            <button><span class="iconify" data-icon="cib:coreui-c"></span> C</button>
-                            <!-- Not doing that mistake again <button><span class="iconify" data-icon="whh:java"></span> Java</button> -->
-                            <button><span class="iconify" data-icon="logos:python"></span> python</button>
-                        </div>
-                        <p id="s_server" class="skill_title"></p>
-                        <div class="skill_item">
-                            <button><span class="iconify" data-icon="cib:lets-encrypt"></span> SSL</button>
-                            <button><span class="iconify" data-icon="whh:domain"></span> DNS</button>
-                            <button><span class="iconify" data-icon="cib:linux"></span> Linux</button>
-                            <button><span class="iconify" data-icon="ant-design:windows-filled"></span> RDP</button>
-                            <button><span class="iconify" data-icon="logos:apache"></span> Apache</button>
-                            <button><span class="iconify" data-icon="carbon:sql"></span> SQL</button>
-                            <button><span class="iconify" data-icon="logos:nodejs"></span> Node.js</button>
-                        </div>
-                        <p id="s_frm" class="skill_title"></p>
-                        <div class="skill_item">
-                            <button><span class="iconify" data-icon="cib:socket-io"></span> Socket.io</button>
-                            <button><span class="iconify" data-icon="fa-brands:node-js"></span> Express.js</button>
-                            <button><span class="iconify" data-icon="logos:electron"></span> Electron.js</button>
-                            <button><span class="iconify" data-icon="simple-icons:discord"></span> Discord.js</button>
-                            <button><span class="iconify" data-icon="logos:passport"></span> Passport.js</button>
-                        </div>
-                    </div>
-                </div>
-                
-            </div>
-
-
-            <div id="footer">
-                <center>
-                    <pre id="tree">
-                        $$$ $$  $ $$                    
-                    $$ $\/$\$$ ()$/ %, $$               
-                   $\/(/$/$||/$ $_/()_$/$$               
-                 $()$$\/$|()$/$\/$$%" $ ()              
-                $_\_$%$\ $$$%%$%$$_%$$_$ $$             
-              $$   $$ $ $|%$|%/$ $ % ()$ /$$            
-               ()$_$$-()$\$\%$$-$%_-%$--()$             
-                   $$     \%||  %$$$%%$                 
-                           |||                          
-                           |||                          
-                           |||                          
-                     , -=-~  .-^- _                     
-                             `                          </pre>
-                </center>
-            </div>
-
-
-        </div>
-        <div id="abyss">
-            <div id="F" class="overlay_content"></div>
-        </div>
-
-
-        <div id="mobile_sad" hidden>
-        </div>
-
 
         <div class="overlay" id="overlay">
             <div class="overlay_content">
-                <p id="language_carrousel">Language?</p>
-                <div id="overlay_buttons">
-                    <button id="overlay_en" class="button">
-                        English
-                    </button>
-                    <button id="overlay_fr" class="button">
-                        Français
-                    </button>
-                    <div hidden id='hiddenbutton'>
-                        <button id="galactic">
-                            ⊣ᔑꖎᔑᓵℸ ̣ ╎ᓵ ᔑꖎ!¡⍑ᔑʖᒷℸ ̣
-                        </button>
-                    </div>
+
+                <span class="inter cool-fade">Under maintenance</span><br><span class="inter cool-fade">Come back soon</span>
+
+                <div class="block">
+                    <pre class="quack">
+                        @@@@@@@@@@@                
+                        @@@..@@@@.@@@               
+               @@@@@@@@@@........#@@@               
+           @@@@@...............@@@@@@@@             
+         @@@@@................@........@@@@         
+        @@@.........@............@@......@@@@       
+      @@@.........@@@(@@.......@@@@@.......@@@      
+     @@@..........@@((%@......@@@((@.........@@@    
+    @@@...........@@@@@@.......@@@@@@.........@@@   
+   @@@.............@@@@..........@@............@@   
+  @@@...................../@@@@%...............@@@  
+ @@@.................@@@@%*****@@@@@............@@  
+ @@@/................@@@@$###///****@@..........@@@ 
+ @@@@...................,***####$@@@@...........@@  
+   @@$.................********................@@   
+     @@@@@@@@@@@@@@@@@#*******..............%@@@    
+        @@............*******..........@@@@@@@      
+      @@@..........@@@.*****......@@@.......@@@     
+      @@@.....@@$....@$///........@@....@@..(@@@    
+      @@@.......@@@@.$%/*.........@@.@@@%....@@@    
+     @@@@...........@@.............@@@......%@@@@@  
+ @@@@**@@@..................................@@***@@@
+@@@*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@.@@@@@@@@@@@@@@
+                    </pre>
                 </div>
+
+                <a class="inter cool-mailto" href="mailto:hi@moldovan-alexand.ru">hi@moldovan-alexand.ru</a>
+
+
             </div>
         </div>
 
-
-        <div id="nothing" class="overlay" style="cursor: none;" hidden>
-            <div class="overlay_content">
-                :(
-            </div>
-        </div>
-
-        <script src="ressources/js/script.js" type="text/javascript" charset="utf-8"></script>
     </body>
 </html>

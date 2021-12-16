@@ -171,10 +171,10 @@ pre {
     cursor: pointer;
 }
 .quack {
-    height: 40vh;
-    width: 50vh;
+    color: #404040;
     text-overflow: clip;
-    position: static;
+    display: inline-block;
+    text-align: left;
     overflow: hidden;
     -webkit-touch-callout: none;
     -webkit-user-select: none;
@@ -264,6 +264,31 @@ pre {
     padding-bottom: 5vh;
     background-color: #262335;
     height: 60vh;
+}
+.inter {
+    font-family: 'Inter';
+    font-weight: 900;
+    text-transform: uppercase;
+}
+.block {
+    text-align: center;
+    margin: 10vh;
+}
+.cool-fade {
+    background: rgb(101,227,67);
+    background: linear-gradient(216deg, rgba(101,227,67,1) 0%, rgba(98,227,72,1) 17%, rgba(0,212,255,1) 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.cool-mailto {
+    background: rgb(67,82,227);
+    background: linear-gradient(216deg, rgba(67,82,227,1) 0%, rgba(224,72,227,1) 17%, rgba(0,212,255,1) 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: small !important;
+    text-transform: unset;
 }
 #console {
     color: #90FC36;
@@ -373,7 +398,8 @@ pre {
     user-select: none;
 }
 #quack {
-    color: #404040;
+    height: 40vh;
+    width: 50vh;
     z-index: 0;
 }
 #abyss {
